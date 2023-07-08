@@ -1,3 +1,4 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 #include<string.h>
 //int main()
@@ -54,7 +55,7 @@
 //int main()
 //{
 //	char arr[] = "asfhksrfgls";
-//	int length = sizeof(arr) / sizeof(arr[0]);//°üº¬ÁË'\0'ÔÚÄÚ£¬ËùÒÔ²»ÄÜÓÃ¸Ã·½·¨¼ÆËã×Ö·ûĞÍÊı×é
+//	int length = sizeof(arr) / sizeof(arr[0]);//åŒ…å«äº†'\0'åœ¨å†…ï¼Œæ‰€ä»¥ä¸èƒ½ç”¨è¯¥æ–¹æ³•è®¡ç®—å­—ç¬¦å‹æ•°ç»„
 //	printf("1.my_strlen()=%d\n", my_strlen(arr));
 //	printf("2.length=%d\n", length);
 //	printf("3.strlen=%d\n", strlen(arr));
@@ -89,8 +90,33 @@
 
 //int main()
 //{
-//	int arr[] = { (1,2),(3,4),5 };
+//	/*int arr[] = { (1,2),(3,4),5 };
+//	printf("%d\n", sizeof(arr));*/
+//	char arr[] = "world";
 //	printf("%d\n", sizeof(arr));
+//	printf("%d\n", strlen(arr));
 //	return 0;
 //}
+
+//void chengfabiao(int input)
+//{
+//	int i = 0;
+//	int j = 0;
+//	for ( i = 1; i <= input; i++)
+//	{
+//		for (j = 1; j <= i; j++) 
+//		{
+//			printf("%d*%d=%-3d ", i, j, i * j);
+//		}
+//		printf("\n");
+//	}
+//}
+//int main()
+//{
+//	int input = 0;
+//	scanf("%d", &input);
+//	chengfabiao(input);
+//	return 0;
+//
+
 
